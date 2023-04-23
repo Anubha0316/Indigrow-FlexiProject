@@ -49,7 +49,6 @@ const UserSchema = new Schema({
     }
 });
 
-// mongoose.model(modelName, schema)
+
 const Client = mongoose.model('client', UserSchema);
-// User.createIndexes();    //we created indexes on email so that duplicate emails aaye to vo handle kr paaye but ye kaam hum ab auth m hi kr lenge
 module.exports = Client;
