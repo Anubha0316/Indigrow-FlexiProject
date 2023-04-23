@@ -59,7 +59,7 @@ export default {
             avatar: null,
             saving: false,
             saved: false,
-            name: "Anubha Gupta",
+            name: "Ankit Pandey",
             followers: 0,
             following: 0,
             post: 0,
