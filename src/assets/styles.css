@@ -1,0 +1,77 @@
+:root {
+    --primary: orange;
+    --text-light: #525252;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.base {
+    color: var(--primary);
+}
+
+.base-inverted {
+    background-color: var(--primary) !important;
+    color: white; 
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.avatar {
+    padding-top: 100px;
+    padding-right: 500px;
+}
+
+.profile-info {
+    display: flex;
+    gap: 20px;
+}
+
+.profile {
+    display: flex;
+}
+
+.avatar-circle {
+    position: relative;
+    left: 88px;
+}
+
+.profile-text {
+    position: relative;
+    left: -183px;
+    padding-top: 50px;
+}
+
+.stats {
+    padding-right: 25px;
+}
+
+.stats-count {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.stats-count, .stats-label {
+    display: inline;
+}
+
+.bio {
+    padding-top: 20px;
+    position: relative;
+}
+
+.post-form-container {
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+}
